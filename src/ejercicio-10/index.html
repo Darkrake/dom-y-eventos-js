@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+566665<!DOCTYPE html>
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
@@ -6,10 +6,14 @@
     <title>Ejercicio 10: Agregar Elemento con `appendChild`</title>
   </head>
   <body>
-    <!-- Escribe tu codigo html aqui -->
+    <div id="contenedor">Contenido existente</div>
+    <button id="miBoton">Agregar Elemento</button><!-- Escribe tu codigo html aqui -->
 
     <script>
-      // Escribe tu codigo javascript aqui
+    const nuevoElemento = document.createElement('div')
+      nuevoElemento.textContent = 'Nuevo elemento'
+      const contenedor = document.getElementById('contenedor')
+      contenedor.appendChild(nuevoElemento)  // Escribe tu codigo javascript aqui
     </script>
   </body>
 </html>
