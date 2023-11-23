@@ -11,7 +11,7 @@ Maneja el evento de carga de una imagen y muestra un mensaje cuando la imagen se
     <title>Ejercicio 17: Manejo de Evento de Carga de Imagen</title>
   </head>
   <body>
-    <img id="miImagen" src="imagen.jpg" alt="Imagen" />
+    <img id="miImagen" src="" alt="Imagen" />
 
     <script>
       const imagen = document.getElementById('miImagen')
